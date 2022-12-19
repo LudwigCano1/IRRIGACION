@@ -22,7 +22,7 @@ with st.sidebar:
     st.header("TRABAJO ESCALONADO 2")
     st.write("**Departamento Académico de Hidráulica e Hidrología**")
     st.write("**HH413G - IRRIGACIÓN**")
-    image= Image.open("img\\UNI.PNG")
+    image= Image.open("./img/UNI.PNG")
     st.image(image,width=200)
     st.write("**Integrantes:**")
     "- Caballero Lazarte Leidy Letzy"
@@ -67,7 +67,7 @@ with T1:
     c1,c2,c3,c4,c5,c6 = st.columns([1,2,1,2,1,2],gap="medium")
     with c1: "$F (ft):$"
     with c2: F = st.number_input("F",min_value=0.0,value=6.0,label_visibility="collapsed")
-    image= Image.open("img//GENERAL.png")
+    image= Image.open("img/GENERAL.png")
     st.image(image,use_column_width=True)
 
 
