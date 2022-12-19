@@ -20,7 +20,7 @@ with st.sidebar:
     st.header("TRABAJO ESCALONADO 2")
     st.write("**Departamento Académico de Hidráulica e Hidrología**")
     st.write("**HH413G - IRRIGACIÓN**")
-    image= Image.open("/app/irrigacion/img/UNI.png")
+    image= Image.open("img/UNI.png")
     st.image(image,width=200)
     st.write("**Integrantes:**")
     "- Caballero Lazarte Leidy Letzy"
