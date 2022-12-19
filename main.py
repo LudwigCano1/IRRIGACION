@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from math import ceil,sin,cos,tan,atan
 
-st.set_page_config(layout="wide",page_icon="💧")
+st.set_page_config(layout="wide",page_icon="💧",page_title="TE02-HH413G")
 
 def discharge(x):
     tabla = [
