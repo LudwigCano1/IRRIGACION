@@ -29,7 +29,7 @@ with st.sidebar:
     "- Quispe Leguía Carlofrancisco"
     "- Villegas Condemaita Niccolas"
 
-st.title("BAFFLED APRON DROPS")
+st.title("💧 BAFFLED APRON DROPS 💧")
 
 T1,T2,T3,T4,T5,T6 = st.tabs(["[ DATOS ]","[ PLANTA ]","[ PERFIL ]","[ DETALLE ]","[ AGUAS ARRIBA ]","[ AGUAS ABAJO ]"])
 
